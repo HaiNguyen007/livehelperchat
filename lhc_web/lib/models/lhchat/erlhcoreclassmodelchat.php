@@ -10,6 +10,7 @@ class erLhcoreClassModelChat {
                'status'          		=> $this->status,
                'status_sub'          	=> $this->status_sub,
                'time'            		=> $this->time,
+               'customer_id'         	=> $this->customer_id,
                'user_id'         		=> $this->user_id,
                'hash'            		=> $this->hash,
                'ip'              		=> $this->ip,
@@ -460,6 +461,7 @@ class erLhcoreClassModelChat {
    public $status = self::STATUS_PENDING_CHAT;
    public $status_sub = self::STATUS_SUB_DEFAULT;
    public $time = '';
+   public $customer_id = '';
    public $user_id = '';
    public $hash = '';
    public $ip = '';
